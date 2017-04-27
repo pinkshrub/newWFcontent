@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, purple 10%, green, silver); /* Safari */
+  background: -o-radial-gradient(circle, purple 10%, green, silver); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, purple 10%, green, silver); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, purple 10%, green, silver); /* Standard syntax */
+}
+
+header{
+  padding: 10px;
+  padding-left: calc(25% - 5px);
+  padding-right: 25%;
+  background-color: ivory;
+  position: fixed;
+  top: 0;
+  width: 970px;
+  height: 80px;
+  border-bottom: green double 2px;
+}
+
+  header h1{
+    display: inline-block;
+    width: calc(50% - 110px);
+    vertical-align: middle;
+    font-size: 250%;
+    margin-bottom: 5px;
+  }
+
+  header h1 span{
+    color: blue;
+    font-size: 50%;
+  }
+
+  header img{
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    /*background-color: red;*/
+    border-radius: 50%;
+    border: 3px green double;
+    margin-left: 450px;
+  }
+
+  header+div{
+    width: 62%;
+    margin: 0 auto;
+    border: 2px green solid;
+  }
+
+main{
+  margin: 0 auto;
+  width: 970px;
+  height: 100%;
+  background-color: ivory;
+  border-left: double green;
+  border-right: double green;
+  padding: 10px;
+  padding-top: 140px;
+}
+
+  main img{
+    width: 60%;
+    height: auto;
+  }
+
+  main article{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  main h2, main p{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+    main p::first-letter{
+      float: left;
+      font-size: 230%;
+      color: green;
+      margin-right: 5px;
+    }
+
+table{
+  display: inline-block;
+  width: 240px;
+  margin-left: 19%;
+  margin-right: 5%;
+}
+
+  table th{
+    border-bottom: 2px solid rgb(144,238,144);
+  }
+
+  table tbody>tr:nth-child(odd){
+    background-color: rgb(144,238,144);
+  }
+
+  table td{
+    margin: 5px;
+    width: 80px;
+    text-align: center;
+  }
+
+form{
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+}
+
+  form label, input{
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  form input[type='submit']{
+    width: 60px;
+    display: inline-block;
+    margin-left: 90px;
+  }
+
+main section h3{
+  color: green;
+}
+
+article.project {
+  width: 30%;
+  margin: 0 auto;
+}
+
+footer{
+  width: 970px;
+  background-color: ivory;
+  margin: 0 auto;
+  padding: 10px;
+  border-left: double green;
+  border-right: double green;
+}
+
+  footer nav{
+    width: 300px;
+    margin-left: 345px;
+    display: inline-block;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: green;
+    padding: 0 10px;
+  }
+
+    footer a+a{
+      border-left: solid 2px green;
+    }

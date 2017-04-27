@@ -1,0 +1,25 @@
+Hey all!
+
+Here are your weekly algorithm challenges! A few quick reminders:
+These algorithms covera  braod range of topics and difficulties, if you only can get 1 or 2, that is okay! These algorithms are intended to be discussed in the algorithm slack channel and a review video of these
+
+1) Rotate Array
+Implement rotateArr(arr, shiftBy) that accepts array and offset. Shift arr’s values to the right by that amount. ‘Wrap-around’ any values that shift off array’s end to the other side, so that no data is lost. Operate in-place: given ([1,2,3],1), change the array to [3,1,2]. Don’t use built-in functions.  Second: allow negative shiftBy (shift L, not R).  Third: minimize memory usage. With no new array, handle arrays/shiftBys in the millions.  Fourth: minimize the touches of each element.
+
+2) Extract-o-matic
+  Create the extractDigit(num,digitNum) function that given a number and a digit number, returns the numeral value of that digit. 0 represents the ones digit, 1 represents the tens digit, etc. Given (1824,2), return 8. Given (1824,0), return 4. Given (1824,7), return 0.
+  Second: handle negative digitNum values, where -1 represents tenths digit (0.x), -2 represents hundredths digit (0.0x), etc. Given (123.45,-1), return 4.
+  Third: handle negative num values as well, doing what you think is appropriate.
+
+3) Generate Coin Change
+Change is inevitable (especially when breaking a twenty). Make generateCoinChange(cents). Accept a number of American cents, compute and print how to represent that amount with smallest number of coins. Common American coins are pennies (1 cent), nickels (5 cents), dimes (10 cents), and quarters (25 cents).
+
+Second: can you simplify/shorten your code?
+
+Third: add half-dollar (50 cents) and dollar (100 cents) coins with 40 additional characters or less.
+
+4) rFib
+Write rFib(num). Recursively compute and return numth Fibonacci value. Treat first two (num = 0, num = 1) Fibonacci vals as 0 and 1. Examples: rFib(2) = 1 (0+1); rFib(3) = 2 (1+1); rFib(4) = 3 (1+2); rFib(5) = 5 (2+3). rFib(3.65) = rFib(3) = 2, rFib(-2) = rFib(0) = 0.
+
+Enjoy and see you in #algorithms slack channel!
+-Alan

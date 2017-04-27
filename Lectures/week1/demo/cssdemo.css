@@ -1,0 +1,10 @@
+/*selector{*/
+  /*property: value;*/
+/*}*/
+
+/*reset*/
+*{
+  padding: 0;
+  margin: 0;
+  outline: red 1px dotted;
+}
