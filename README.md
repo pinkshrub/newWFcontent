@@ -19,9 +19,9 @@ As of this writing, lectures will take place 5pm PST and 7pm PST Tuesday and Thu
 |Week | Notes | Lecture 1 | Lecture 2 | Weekend |
 |-----|-------|-----------|-----------|---------|
 |  1  |Orient.|   HTML    |    CSS    |  CSS    |
-|  2  |       |    CSS    |     JS    |  'JQ'   |
-|  3  |       |     JQ    |  AJAX+API |JOSN+API |
-|  4  |       |    RWD    |  gitpages | python  |
+|  2  |       |   CSS     |     YB    |   YB    |
+|  3  |       |    JS     |     JQ    |  APIs   |
+|  4  |       |   AJAX    |     RWD   | python  |
 
 
 

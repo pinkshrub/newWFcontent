@@ -12,8 +12,7 @@
 - Break down websites by tag type
 - demo how p, h1, a tags can have same text but look different
 
-**Activity**
-- re-create pre-styled page
+
 
 ### Lecture Outline
 - Administrative
@@ -64,6 +63,7 @@
 - HTML
   - structures the webpage using meaningful tags,
     - House material analogy I think is relevant
+      - railing, door, beam are all 'wood' but have dif. semantic meaning
   - Tags get interpreted as content
     - `<!DOCTYPE html>` declares that this is an html5 document. Use this always.
     - `<html>` starts a document and the corresponding `</html>` ends it

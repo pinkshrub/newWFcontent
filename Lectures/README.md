@@ -7,6 +7,9 @@ In this repository I have the outlines for each of the lectures for the Online P
 |Week |   Monday   |    Tuesday    |   Thursday    |   Weekend   |
 |-----|  -------   |  -----------  |  -----------  |  ---------  |
 |  1  | [Orient.]()|   [HTML]()    |    [CSS]()    |  [CSS]()    |
+|  2  |   Emails   |   CSS pt. 2   |    YB AMA/OH  | Yellow Belt |
+|  3  |  Emails    |  JavaScript   |  jQuery       | APIs        |
+|  4  |  Emails    |   AJAX        |   RWD         |  Python     |
 
 ### Week 1 Learning Goals
 - Orientation

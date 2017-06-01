@@ -12,6 +12,7 @@
 - Admin
   - github organization
   - How them algos going?
+  - tomorrow 2pm JS Basics walkthrough
 - Context
   - HTML woo!
   - CSS for until next week!

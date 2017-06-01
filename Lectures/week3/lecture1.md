@@ -1,40 +1,40 @@
-# JQuery!
+# Introduction to JS
 
-### Learning goals
-- familiar with JQuery basic functionalities
-  - traversal, manipulation, event handling, (Async*)
-- Work with dynamic content
-  - this/on
-- Interrupt default actions
-  - form submission + link navigation
+## Learning Goals
+1) Cover some Javascript stuff
+- Scope, PbR, Callbacks
+- Nested objects + Chained calls
 
-### Outline
+2) Demonstrate how Javascript can interact with the page
+- DOM
+- Manipulate the DOM
+  - Build a clock
+
+## Outline
 - Admin
-  - YB expect grades to be trickling in tomorrow
-  - Experimenting with new format this Friday for another YB
-  - Python will be Two days a week just like this (Tue and Thur)
-  - First week of May is off
+  - Yellow Belt
+  - Take it. Don't Freak Out
+  - github name if you want to be in gitOrg
 - Context
-  - pre: JS 101 + 'JQuery' video
-  - now: JQuery basics
-  - next: JQuery + interacting with the internet
-- JQuery!
-  - que es?
-  - how to use it?
-    - CDN + local copy
-  - Basic functionality
-    - traversal
-      - why?
-      - when 'this' isn't super identifiable and you want to touch relatives!
-    - manipulation
-      - why?
-        - fun?
-    - event handling
-      - why?
-        - Responsiveness and interactivity
-  - Dynamic content
-    - on
-    - changes how events are detected
-  - Interrupt default behaviors
-    - some elements perform a default action that makes the browser render a response
-    - sometimes, we dont want the page to reload because the data isn't elsewhere
+  - Finished up CSS + HTML
+  - Time to make stuff move
+  - We'll be doing it all next week, too!
+- JS
+  - Overview
+  - little details im not gonna touch
+    - vars, conditionals, booleans, loops, data types
+  - what I will touch
+    - scope (+vars+functions)
+      - usual what is output of this function
+    - PbR (+objects+data types)
+      - modify/assign an array in a function see what happens
+    - callbacks (+vars+functions)
+      - pass a function as a parameter...EZ
+    - nested + chained stuff (+objects)
+      - build something weird... with an object+object touching on
+- Speaking of Nested and chained stuff...
+- DOM
+  - basic manipulations via JS
+  - basic DOM mnaipulations
+    - getElementByID...
+    - innerHTML

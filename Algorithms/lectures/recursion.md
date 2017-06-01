@@ -1,3 +1,0 @@
-# Recursion
-
-## What is it?

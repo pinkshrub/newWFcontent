@@ -1,44 +1,40 @@
-# Web Fun Week 3 Lecture 2 AJAX + APIs
+# JQuery!
 
-## Overview + learning goals
-- APIs
-  - understand what and why
-  - how to use
-- AJAX
-  - understand what and how
+### Learning goals
+- familiar with JQuery basic functionalities
+  - traversal, manipulation, event handling, (Async*)
+- Work with dynamic content
+  - this/on
+- Interrupt default actions
+  - form submission + link navigation
 
-## Lecture Outline
+### Outline
 - Admin
-  - YB will be emailing out a 'hardcopy' must be turned in by Sunday
-    - If not, you will receive attention about program future
-  - Remember to thread in Slack!
-  - Reminder first week of May is off
-  - Python lectures will be on Monday and Wednesday
-  - I'm going to be looking to do some more assignment walkthroughs
-    - Portfolio recording in slack channel document
+  - YB expect grades to be trickling in tomorrow
+  - Experimenting with new format this Friday for another YB
+  - Python will be Two days a week just like this (Tue and Thur)
+  - First week of May is off
 - Context
-  - Pre: Basic JQ functions
-  - Now: Async JQ functions
-  - Next: Frameworks on Tuesday/more JQuery
-- APIs
-  - Que es?
-    - Application programming interfaces
-    - A resource meant to be used by other devs
-    - Allows access to data you have collected
-    - There are lot of APIs out there!
-    - Advantages:
-      - dev speed
-      - cross language/platform
-      - increase market size
-    - Fun APIs
-      - https://github.com/toddmotto/public-apis
-- AJAX
-  - Asynchronous Javascript And XML
-  - Allows you to break the synchronicity!
-    - update page without reloading
-      - make requests post-page load
-    - receive responses without refreshing
-    - make requests in the background
-  - Work with your own server || external APIs
-  - Examples:
-    - autocomplete, google maps, news feeds
+  - pre: JS 101 + 'JQuery' video
+  - now: JQuery basics
+  - next: JQuery + interacting with the internet
+- JQuery!
+  - que es?
+  - how to use it?
+    - CDN + local copy
+  - Basic functionality
+    - traversal
+      - why?
+      - when 'this' isn't super identifiable and you want to touch relatives!
+    - manipulation
+      - why?
+        - fun?
+    - event handling
+      - why?
+        - Responsiveness and interactivity
+  - Dynamic content
+    - on
+    - changes how events are detected
+  - Interrupt default behaviors
+    - some elements perform a default action that makes the browser render a response
+    - sometimes, we dont want the page to reload because the data isn't elsewhere
